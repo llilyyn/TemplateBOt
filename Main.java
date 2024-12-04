@@ -227,7 +227,7 @@ public static void main(String[] args) {
     while (!byeBye && !containsGoodbye(userResp)) {
         System.out.println(checkIt(userResp));
         if (opt == 1) { // Check if the user is asking about toppings
-            System.out.println("Would you like to know more about any of the toppings? If so, which one?");
+            System.out.println("Would you like to know the nutrition of any of the toppings? If so, which one?");
             next = 2;
             userResp = in.nextLine();
             if (next == 2) {
@@ -235,7 +235,7 @@ public static void main(String[] args) {
                 opt = 0;
             }
         } else if (opt == 2) {  // Check if the user is asking about drinks
-            System.out.println("Would you like to know more about any of the drinks? If so, which one?");
+            System.out.println("Would you like to know the nutrition of any of the drinks? If so, which one?");
             next = 2;
             userResp = in.nextLine();
             if (next == 2) {
@@ -243,7 +243,7 @@ public static void main(String[] args) {
                 opt = 0;
             }
         } else if (opt == 3) {  // Check if the user is asking about meals
-            System.out.println("Would you like to know more about any of the meals? If so, which one?");
+            System.out.println("Would you like to know the nutrition of any of the meals? If so, which one?");
             next = 2;
             userResp = in.nextLine();
             if (next == 2) {
@@ -251,7 +251,7 @@ public static void main(String[] args) {
                 opt = 0;
             }
         } else if (opt == 4) {  // Check if the user is asking about dips
-            System.out.println("Would you like to know more about any of the dips? If so, which one?");
+            System.out.println("Would you like to know the nutrition of any of the dips? If so, which one?");
             next = 2;
             userResp = in.nextLine();
             if (next == 2) {
@@ -259,7 +259,7 @@ public static void main(String[] args) {
                 opt = 0;
             }
         } else if (opt == 5) { // Check if the user is asking about proteins
-            System.out.println("Would you like to know more about any of the protein options? If so, which one?");
+            System.out.println("Would you like to know the nutrition of any of the protein options? If so, which one?");
             next = 2;
             userResp = in.nextLine();
             if (next == 2) {
