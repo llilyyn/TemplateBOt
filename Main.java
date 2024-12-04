@@ -205,7 +205,7 @@ public static void main(String[] args) {
     System.out.println();
     System.out.println("*DISCLAIMER: macronutrients are used instead of the term 'protein' for protein-value, while 'protein' is used to describe real or soy meat. :)");
     System.out.println();
-    System.out.println(WHITE_BG + RED_TEXT + "Hello, welcome to Chipotle! I am a super fun, enthusiastic chatbot that can give you info on our wonderful menu, from toppings to combo meals! Would you like to explore our protein options? Or take a look at our drinks? Maybe have a peek at our unique dips? :D");
+    System.out.println(WHITE_BG + RED_TEXT + "Hello, welcome to Chipotle! I am a super fun, enthusiastic chatbot that can give you info on our wonderful menu, from toppings to meals! Would you like to explore our protein options? Or take a look at our drinks? Maybe have a peek at our unique dips? :D");
     System.out.println();
     String userResp = in.nextLine();
 
