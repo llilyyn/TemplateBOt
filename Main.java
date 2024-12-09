@@ -7,6 +7,11 @@ public class Main {
    };
 
 
+   static String[] hello = {
+    "hello", "hi", "hey", "what's up", "whassup", "hola", "bonjour"
+   };
+
+
    static String[] farewell = {
        "In that case, it seems like it's time for us to say goodbye. Adieu!",
        "Well, then, that sure was fun! I guess it's time for farewell!",
@@ -133,6 +138,8 @@ public class Main {
                }
                System.out.println("Would you like to know more about any of the protein options? If so, which one? :)");
                next = 2;
+           } else if (userResp.equals(hello[0]) || userResp.equals(hello[1]) || userResp.equals(hello[2]) || userResp.equals(hello[3]) || userResp.equals(hello[4]) || userResp.equals(hello[5]) || userResp.equals(hello[6])) {
+               System.out.println("Hey there! Is there anything you would like to ask about our menu? :)");
            } else {
                System.out.println(getResponse(userResp));
            }
