@@ -148,9 +148,10 @@ public class Main {
                userResp = in.nextLine();
                String info = toppingsScene(userResp) + drinksScene(userResp) + mealsScene(userResp) + dipsScene(userResp) + proteinScene(userResp);
                System.out.println(info);
-System.out.println("HEHEHEHEHE would you like to know anything else? Please reply 'yes' or 'no'! :D");
+               System.out.println("HEHEHEHEHE would you like to know anything else? Please reply 'yes' or 'no'! :D");
+               userResp = in.nextLine();
               if(userResp.toLowerCase().equals("yes")) {
-               opt = 0;
+               opt = 50;
               } else {
                byeBye = true;
               }
@@ -162,14 +163,16 @@ System.out.println("HEHEHEHEHE would you like to know anything else? Please repl
                    userResp = in.nextLine();
                }
            }
-           userResp = in.nextLine();
+           
            if (containsAny(userResp, noArr)) {
                byeBye = true;
                System.out.println(getRandomGoodbye());
-           } else {
-               System.out.println("I see. What else would you like to learn more about? :D");
+           } else if (opt == 50) {
+               System.out.println("I see. What else would you like to learn more about? Please choose from toppings, dips, protein, drinks, or meals! :D");
+               opt = 0;
            }
            userResp = in.nextLine();
+           
        }
    }
 
